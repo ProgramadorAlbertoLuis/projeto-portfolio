@@ -52,7 +52,7 @@ a{
     text-align: right;
     color: #FFFFFF;
     padding: 10px 25px 10px 25px;
-    margin-left: 326px;
+    margin-left: 320px;
 }
 #headerCta p{
     font-family: Poppins;
@@ -92,6 +92,17 @@ a{
     font-style: normal;
     line-height: normal;
 }
+#services{
+    text-align: center;
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 65px;
+    margin-top: 130px;
+}
 h2.red{
     color: #F75C4E;
     font-size: 16px;
@@ -99,7 +110,6 @@ h2.red{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-top: 200px;
 }
 h1.black{
     margin-top: 0px;
@@ -109,4 +119,82 @@ h1.black{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-top: 0px;
+}
+.gray{
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.textCenter h3{
+    text-align: center;
+    color: #070F18;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.textCenter{
+    text-align: center;
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+#contactImg img{
+    width: 100%;
+}
+#contactForm {
+    margin-top: 50px;
+}
+#contactForm input{
+    padding: 10px 30px 10px 30px;    
+    border-radius: 50px;
+    background: #F5F6FB;
+    color: #575455;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    width: 70%;
+}
+#contactForm button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    background: #1F7CFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0;
+    cursor: pointer;
+}
+button:hover{
+    background: #9b5b0d;
+    color:white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #05103081;
+    transition-duration: 0.1s;
+}
+#portfolioTitle{
+    margin-top: 150px;
+}
+.portfolioImg img{
+    width: 100%;
+    border-radius: 30px;
+    cursor:pointer;
+}
+.portfolioImg{
+    margin: 20px;
 }
